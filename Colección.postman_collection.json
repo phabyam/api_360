@@ -46,16 +46,15 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/clientes",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/clientes",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"clientes"
 					]
@@ -69,16 +68,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/clientes?per_page=8&order_by=nombre&asc=desc",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/clientes?per_page=8&order_by=nombre&asc=desc",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"clientes"
 					],
@@ -106,16 +104,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/clientes/3",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/clientes/3",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"clientes",
 						"3"
@@ -145,16 +142,15 @@
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/clientes/?_method=PUT",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/clientes/?_method=PUT",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"clientes",
 						""
@@ -175,16 +171,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/viajes",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/viajes",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"viajes"
 					]
@@ -207,16 +202,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/viajes",
-					"protocol": "http",
+					"raw": "random20.tk/api_360/api_360/public/api/viajes",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"random20",
+						"tk"
 					],
-					"port": "8000",
 					"path": [
+						"api_360",
+						"api_360",
+						"public",
 						"api",
 						"viajes"
 					]
