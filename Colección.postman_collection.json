@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "a9be91c2-d9ef-4c4c-85d2-f98ed4659a73",
+		"name": "Colección",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Clientes A1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Yulisa",
+							"type": "text"
+						},
+						{
+							"key": "apellidos",
+							"value": "Quijano",
+							"type": "text"
+						},
+						{
+							"key": "telefono",
+							"value": "3117148171",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ruchyq@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "Calle 26b",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/C:/Users/phLabs/Desktop/photo_2021-09-21_14-39-18.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/clientes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Clientes A1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/clientes?per_page=8&order_by=nombre&asc=desc",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"clientes"
+					],
+					"query": [
+						{
+							"key": "per_page",
+							"value": "8"
+						},
+						{
+							"key": "order_by",
+							"value": "nombre"
+						},
+						{
+							"key": "asc",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Show cliente A1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/clientes/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"clientes",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Cliente A1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Andrés",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/E:/ARCHIVOS/DESCARGAS/image.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/clientes/?_method=PUT",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"clientes",
+						""
+					],
+					"query": [
+						{
+							"key": "_method",
+							"value": "PUT"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Viajes A3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/viajes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"viajes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Viajes A2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<root>\r\n   <viaje>\r\n      <ciudad>Montería</ciudad>\r\n      <email>ruchyq@gmail.com</email>\r\n      <fecha>2021-09-22 17:04:55</fecha>\r\n      <pais>Colombia</pais>\r\n   </viaje>\r\n   <viaje>\r\n      <ciudad>Lorica</ciudad>\r\n      <email>ruchyq@gmail.com</email>\r\n      <fecha>1989-09-22 17:04:55</fecha>\r\n      <pais>Colombia</pais>\r\n   </viaje>\r\n   <viaje>\r\n      <ciudad>Bogotá</ciudad>\r\n      <email>ruchyq2@gmail.com</email>\r\n      <fecha>2021-09-22 17:04:55</fecha>\r\n      <pais>Colombia</pais>\r\n   </viaje>\r\n</root>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/viajes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"viajes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
